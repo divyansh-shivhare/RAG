@@ -20,12 +20,12 @@ Usage
 Script: Mitra Robot RAG Chatbot
 This script demonstrates how to use the Ollama and Groq models to create a chatbot for robot customer support. The chatbot uses Gradio for the user interface and retrieves context from a pre-loaded document database to answer questions.
 
-How It Works
+# How It Works
 Load the Document Database: The script uses OllamaEmbeddings to create embeddings for the documents and stores them in a Chroma vector store.
 Set Up the Chatbot: The chatbot is set up using Gradio's ChatInterface and uses the ChatGroq model for generating responses.
 Answering Questions: When a user sends a message, the chatbot retrieves relevant context from the document database and generates a concise response using the Groq model.
 
-Acknowledgements
+# Acknowledgements
 Langchain
 Gradio
 Anthropic
